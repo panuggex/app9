@@ -60,6 +60,8 @@ SQL Data model for H2 Database
     Update Users
     UPDATE users SET email = 'newemail@example.com' WHERE id = 1;
 
+    _____________________________________________________________________________________________________________________________
+
     Creating Tasks
     INSERT INTO tasks (name, description, date_time, user_id) VALUES ('Task name', 'Task description', '2022-01-01 12:00:00', 1);
 
@@ -68,7 +70,7 @@ SQL Data model for H2 Database
 
     Updating tasks
     UPDATE tasks SET name = 'New task name', description = 'New task description', date_time = '2022-02-01 12:00:00' WHERE id = 1;
-    
+
     Deleting tasks
     DELETE FROM tasks WHERE id = 1;
 
