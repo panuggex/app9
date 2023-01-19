@@ -44,7 +44,6 @@ Getting Started with the H2 Console:
     Leave the username and password fields untouched and click "Connect"
     Once connected, you will be able to create view and manipulate the data stored in the H2 database through the H2 console's web interface.
 
-Please keep in mind that above steps are assuming that you have JAVA and MAVEN installed on your machine.
 
 SQL Data model for H2 Database
 
