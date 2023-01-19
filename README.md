@@ -85,6 +85,7 @@ Getting Started with Postman
 
 Please keep in mind that above steps are assuming that you have JAVA and MAVEN installed on your machine.
 
+
 Data Models for Postman
 User
 
