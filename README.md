@@ -25,25 +25,6 @@ Users Tasks
 
     GET /api/users/{userId}/tasks: Retrieves all tasks for a specific user
 
-Data Models
-User
-
-{
-    "id": Long,
-    "name": String,
-    "email": String,
-    "password": String,
-}
-
-Task
-
-{
-    "id": Long,
-    "name": String,
-    "description": String,
-    "dueDate": Date,
-    "userId": Long,
-}
 
 Prerequisites
 
@@ -63,7 +44,9 @@ Getting Started with the H2 Console:
     Leave the username and password fields untouched and click "Connect"
     Once connected, you will be able to create view and manipulate the data stored in the H2 database through the H2 console's web interface.
 
-SQL
+Please keep in mind that above steps are assuming that you have JAVA and MAVEN installed on your machine.
+
+SQL Data model for H2 Database
 
     Creating Users
     INSERT INTO USERS (ID, NAME, EMAIL, PASSWORD)
@@ -84,7 +67,7 @@ SQL
     Deleting tasks
     DELETE FROM tasks WHERE id = 1;
 
-Getting Started
+Getting Started with Postman
 
     Clone the repository: git clone https://github.com/panuggex/app9
     Build the project: mvn clean install
@@ -94,6 +77,26 @@ Getting Started
     You can now test the API's different endpoints and view the responses in Postman.
 
 Please keep in mind that above steps are assuming that you have JAVA and MAVEN installed on your machine.
+
+Data Models for Postman
+User
+
+{
+    "id": Long,
+    "name": String,
+    "email": String,
+    "password": String,
+}
+
+Task
+
+{
+    "id": Long,
+    "name": String,
+    "description": String,
+    "dueDate": Date,
+    "userId": Long,
+}
 
 Testing
 
