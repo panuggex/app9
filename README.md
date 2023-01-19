@@ -43,6 +43,7 @@ Getting Started with the H2 Console:
     In the JDBC URL field, enter "jdbc:h2:mem:testdb" (without the quotes)
     Leave the username and password fields untouched and click "Connect"
     Once connected, you will be able to create view and manipulate the data stored in the H2 database through the H2 console's web interface.
+    Please keep in mind that above steps are assuming that you have JAVA and MAVEN installed on your machine
 
 
 SQL Data model for H2 Database
@@ -83,7 +84,6 @@ Getting Started with Postman
     Open Postman and make a request to the API by entering the URL http://localhost:8080 in the address bar and selecting the appropriate HTTP method (e.g GET, POST, PUT, DELETE)
     You can now test the API's different endpoints and view the responses in Postman.
 
-Please keep in mind that above steps are assuming that you have JAVA and MAVEN installed on your machine.
 
 
 Data Models for Postman
