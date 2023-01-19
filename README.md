@@ -31,7 +31,8 @@ User
 {
     "id": Long,
     "name": String,
-    "email": String
+    "email": String,
+    "password": String,
 }
 
 Task
@@ -41,7 +42,7 @@ Task
     "name": String,
     "description": String,
     "dueDate": Date,
-    "userId": Long
+    "userId": Long,
 }
 
 Prerequisites
